@@ -53,6 +53,10 @@ footer {
   padding-top: 250px;
 }
 
+.cyan {
+  background-color: cyan;
+}
+
 @media (min-width: 768px) {
   .prod {
     font-size: 40px;
