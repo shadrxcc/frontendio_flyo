@@ -49,3 +49,9 @@ For the social icons, you can use a font icon library. Some suggestions can be f
 - [Font Awesome](https://fontawesome.com/)
 - [IcoMoon](https://icomoon.io/)
 - [Ionicons](https://ionicons.com/)
+<i class="bi bi-geo-alt"></i>
+<i class="bi bi-telephone"></i>
+<i class="bi bi-envelope"></i>
+<i class="bi bi-facebook"></i>
+<i class="bi bi-twitter"></i>
+<i class="bi bi-instagram"></i>
