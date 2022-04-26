@@ -1,0 +1,79 @@
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  background-color: hsl(218, 28%, 13%);
+  font-size: 14px;
+}
+
+.logo {
+  width: 45%;
+}
+
+.rale {
+  font-family: 'Raleway', sans-serif;
+}
+
+.txt {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.line {
+  line-height:30px;
+}
+
+.grid {
+  display: grid;
+}
+
+.prof {
+  width: 30px;
+  height: 30px;
+}
+
+.stack {
+  background-color: hsl(219, 30%, 18%);
+  font-size: 10px
+}
+
+.sign {
+  background-color: hsl(217, 28%, 15%);
+  top: 200px;
+}
+
+.flexcont {
+  flex-direction: column;
+}
+
+.mail {
+  border-radius: 20px;
+}
+
+footer {
+  background-color: hsl(216, 53%, 9%);
+  padding-top: 250px;
+}
+
+.cyan {
+  background-color: cyan;
+  background-image: linear-gradient(hsl(176, 68%, 64%), hsl(198, 60%, 50%), hsl(223, 6%, 52%));
+}
+
+@media (min-width: 768px) {
+  .prod {
+    font-size: 40px;
+  }
+
+  .grid {
+    grid-template-columns: auto auto auto;
+  }
+
+  .flexcont {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: auto auto auto auto;
+  }
+}
